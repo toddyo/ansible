@@ -1,0 +1,15 @@
+[ubuntu_servers]
+srv1 ansible_host=192.168.86.20
+srv2 ansible_host=192.168.86.24
+srv3 ansible_host=192.168.86.54
+
+
+[servers]
+192.168.86.20
+192.168.86.24
+192.168.86.54
+
+[firewalls]
+fw1 ansible_host=192.168.86.254
+fw2 ansible_host=192.168.86.37
+
